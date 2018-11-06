@@ -21,5 +21,5 @@ app.config.from_envvar('FLASKR_SETTINGS')   #环境变量，指向配置文件se
 db = SQLAlchemy(app)
 
 #只有在app对象之后声明，用于导入model否则无法创建表
-from kmu_econ.model import User,Category
-from kmu_econ.controller import kmu_econ_manage
+from kmu_econ.models import User,Category
+from kmu_econ.views import kmu_econ_manage

@@ -1,5 +1,5 @@
-from kmu_econ.model.User import  User
-from kmu_econ.model.Category import Category
+from kmu_econ.models.User import  User
+from kmu_econ.models.Category import Category
 import os
 
 from kmu_econ import app,db
