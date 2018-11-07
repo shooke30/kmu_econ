@@ -1,8 +1,8 @@
 from kmu_econ.models.User import  User
 from kmu_econ.models.Category import Category
-import os
 
 from kmu_econ import app,db
+
 from flask import request,render_template,flash,abort,url_for,redirect,session,Flask,g
 
 @app.route('/')

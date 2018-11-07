@@ -1,5 +1,7 @@
 from kmu_econ import app
 
+
+
 # 使用路由 为URL 绑定视图函数
 @app.route('/')
 def hello_world():
